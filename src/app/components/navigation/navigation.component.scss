@@ -1,0 +1,40 @@
+nav {
+  ul {
+list-style: none;
+padding: 0;
+li {
+  .user-profile-image {
+    margin-bottom: 25px;
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50px;
+      overflow: hidden;
+      background-color: rgba(173, 216, 230, 0.429);
+    }
+  }
+  a {
+    display: flex;
+    margin-bottom: 5px;
+    background-color: rgba(211,211,211,0.065);
+    text-decoration: none;
+    gap: 5px;
+    color: var(--bg-card);
+    padding: 10px;
+    transition: all 0.3s ease-in;
+  }
+
+  a:hover {
+    color: #fff;
+  }
+
+  .logout-dashboard {
+    cursor: pointer;
+  }
+}
+}
+}
+

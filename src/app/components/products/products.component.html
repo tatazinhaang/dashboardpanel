@@ -1,0 +1,64 @@
+<div class="container-fluid">
+  <div class="product-section">
+    <button class="btn btn-primary float-end m-3" data-bs-toggle="modal" data-bs-target="#addProductModal">To Add</button>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Number</th>
+          <th>ID</th>
+          <th>Product</th>
+          <th>Price</th>
+          <th>Quantity</th>
+          <th style="text-align: center;">Action</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>1.</td>
+          <td>P001</td>
+          <td>Vivo Smartphone</td>
+          <td>1000</td>
+          <td>12</td>
+          <td style="text-align: center;">
+            <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+              <button type="button" class="btn btn-success"><i class="bi bi-pencil-square"></i></button>
+              <button type="button" class="btn btn-danger"><i class="bi bi-trash-fill"></i></button>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="addProductModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5 text-logout" id="exampleModalLabel">Add a New Product</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form action="">
+          <div class="row">
+            <div class="col-xl-6">
+              <label class="text-logout" for="productId">Product Id</label>
+              <input type="text" class="form-control form-control-lg w-100" id="productId" placeholder="Enter the product ID...">
+            </div>
+            <div class="col-xl-6">
+              <label class="text-logout" for="productName">Product Name</label>
+              <input type="text" class="form-control form-control-lg" id="productName">
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>

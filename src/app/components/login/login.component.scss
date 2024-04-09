@@ -1,0 +1,38 @@
+.navbar {
+  background-color: var(--secondary-color);
+}
+
+.navbar-text {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.login-section {
+  height: 100vh;
+  background-color: var(--bg-body);
+}
+
+.login-card {
+  width: 600px;
+  background-color: var(--secondary-color);
+  color: var(--bg-body);
+}
+
+.card-header {
+  background-color: var(--secondary-color);
+  color: var(--bg-body);
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 1.3rem;
+}
+
+input::placeholder {
+  color: var(--secondary-ligth);
+}
+
+.btn {
+  background-color: var(--secondary-color);
+  color: var(--secondary-ligth);
+  font-weight: 600;
+}

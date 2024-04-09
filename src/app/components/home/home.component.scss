@@ -1,0 +1,33 @@
+.over-view {
+  height: 300px;
+  background-color: #fff;
+  box-shadow: 1px 1px 3px #0000003a;
+}
+
+.card {
+  display: flex;
+  padding: 10px;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--primary-color);
+
+  .icon {
+    background-color: var(--secondary-color);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: var(--bg-card);
+  }
+
+  .content {
+    color: var(--bg-body);
+    font-weight: 600;
+    text-shadow: 1px 1px 2px #000;
+  }
+
+
+}
